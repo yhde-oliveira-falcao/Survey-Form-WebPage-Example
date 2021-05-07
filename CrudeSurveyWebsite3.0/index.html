@@ -1,0 +1,261 @@
+<!-- Simple HTML form page. Code made by Yuri Falcao.
+This form example requires the use of formspree (it is free up to 50 submissions/month) 
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<title>Market Research</title><!--This title goes on the browser part-->
+		<link rel="stylesheet" href="styles.css">
+		<!--script src="script.js"></script-->
+	</head>
+
+	<body>
+
+		<div class="main_container" id="home"><!--the whole homepage-->
+			
+
+				
+			</div-->
+			<div class="banner_image">
+				<div class="banner_content">
+					<h1>COMPANY NAME<br> <span> <span></h1>
+					<p></p>				
+				</div>	
+			</div>
+
+			<!-- ======================START POINT ======================-->
+			<div class=>
+
+			<div class="about" id="about" >
+				<h2 class="title" style= "padding-left: 15px; font-size: 35px;">Help Us to Create the Best Product</h2>
+				<p style= "padding-left: 15px;">Intro Text ----------------------------------
+					-------------------------------------------------------------------------------------------------------------
+				-------------------------------------------------------------------------------------------------------- </p>
+				<!-- div class="btn"><a href="#">Learn More</a></div -->
+			</div>
+
+			<div class="contactus" id="contactus">
+				<h2 class="title" style= "padding-left: 15px;">Send us your valuable feedback</h2>
+				<br>
+				<form id="fs-frm" name="survey-form" accept-charset="utf-8" action="https://formspree.io/" method="POST"> <!-- Put your formspree in the action field-->
+					<!-- The items Will be sent by "name"-->
+					<fieldset id="fs-frm-inputs">
+
+					<div class="form_input" style= "padding-left: 15px;"><br>
+						<label for="full-name">Name</label>
+						<input type="text" name="name" id="full-name" placeholder="First and Last" required="">
+						<label for="email-address">Email Address</label>
+						<input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
+					</div><br><br>
+			
+
+					<div class="form_input" style= "padding-left: 15px;">
+						<label for="jobpos">Your Job Position</label>
+						<input type="jobpos" name="job position" id="Position" placeholder="E.g. Researcher" required="">
+					</div><br>
+
+					<!-- ========================================what type of analysis for products ================================================================== -->
+					<fieldset id="fs-frm-selects" style= "padding-left: 15px;"><br>
+						<div class="form_input">
+							<label for="instruments">1.Multiple items choice question</label><br><br>
+							<div style="display:flex;">
+							<div class="form_input" style="display:flex; text-align: justify; padding: 10px;">
+								<ul>
+									<li><div><input type="checkbox" id="scales" name="Item 1" ><label for="scales">Item 1</label></div></li>
+									<br>
+									<li><div><input type="checkbox" id="scales" name="Item 2" ><label for="scales">Item 2</label></div></li>
+									<br>
+									<li><div><input type="checkbox" id="scales" name="Item 3" ><label for="scales">Item 3</label></div></li>
+									<br>
+									<li><div><input type="checkbox" id="scales" name="Item 4" ><label for="scales">Item 4</label></div></li>
+									
+								</ul>
+						
+							</div><br>
+							<div class="form_input" style="display:flex; text-align: justify; padding: 10px;">
+								<ul>
+									<li><div><input type="checkbox" id="scales" name="Item 5" ><label for="scales">Item 5</label></div></li>
+									<br>
+									<li><div><input type="checkbox" id="scales" name="Item 6" ><label for="scales">Item 6</label></div></li>
+									<br>
+									<li><div><input type="checkbox" id="scales" name="Item 7" ><label for="scales">Item 7</label></div></li>
+								</ul>
+							</div><br>
+							<div class="form_input" style="display:flex; text-align: justify; padding: 10px;">
+								<ul>
+									<li><div><input type="checkbox" id="scales" name="Item 8" ><label for="scales">Item 8</label></div></li>
+									<br>
+									<li><div><input type="checkbox" id="scales" name="Item 9" ><label for="scales">Item 9</label></div></li>
+									<br>
+									<li><div><input type="checkbox" id="scales" name="Item 10" ><label for="scales">Item 10</label></div></li>
+								</ul>
+							</div><b0r>
+							<div class="form_input" style="display:flex; text-align: justify; padding: 10px;">
+								<ul>
+									<li><div><input type="checkbox" id="scales" name="Item 11" ><label for="scales">Item 11</label></div></li>
+									<br>
+									<li><div><input type="checkbox" id="scales" name="Item 12" ><label for="scales">Item 12<spam>Item 12</spam></label></div></li>
+									<br>
+									<li><div><input type="checkbox" id="scales" name="Item 13" ><label for="scales">Item 13</label></div></li>
+								</ul>
+							</div><br>
+						</div>
+						</div><br><br>
+						<!-- ================================================================================================================= -->
+
+						<div class="form_input">
+							<label for="Share data in real time">2. Question 2 
+							</label> <br>
+							<select name="Question 2" id="Share data" required="">
+							<option value="Choose" selected="" disabled="">Select</option>
+							<option value="Yes 1">Yes,1</option>
+							<option value="Yes 2">Yes,2 </option>
+							<option value="Yes 3">Yes,3 </option>
+							<option value="Yes 4">Yes,4 </option>
+							<option value="Yes Other">Yes, other </option>
+							<option value="No">No</option>
+							</select>
+							<div class="form_input" style= "padding-left: 15px;"><br>
+								<label for="Question 2 Descr.">Description</label><br>
+								<textarea rows="3" name=" Question 2 Descr." id="message" placeholder="Problem Description" required=""></textarea>
+								<input type="hidden" name="_subject" id="email-subject" value="Survey Responses">
+							</div>
+						</div><br><br><br>
+
+						<div class="form_input">
+							<label for="Smartphone">3. </label>
+							<br>
+							<select name="3." id="Work with data" required="">
+							<option value="Choose" selected="" disabled="">Choose</option>
+							<option value="Yes">Yes</option>
+							<option value="No">No</option></p>
+							<option value="Rarely">Rarely</option>
+							</select>
+						</div><br><br>
+
+						<div class="form_input">
+							<label for="Smartphone">3.1 </label>
+								<br>
+							<select name="3.1" id="Work with data" required="">
+							<option value="Choose" selected="" disabled="">Choose</option>
+							<option value="Yes">Yes, ...</option>
+							<option value="No">No, ....</option></p>
+							<option value="not sure">Not sure</option>
+							</select>
+						</div><br><br><br>
+
+						<div class="form_input">
+							<label for="timely">4. </label><br>
+							<select name="4." id="software" required="">
+							<option value="Choose" selected="" disabled="">Choose</option>
+							<option value="Yes">Yes</option>
+							<option value="No">No</option>
+							<option value="Not sure">Not sure</option>
+							</select>
+							<div class="form_input" style= "padding-left: 15px;"><br>
+								<label for="4.Descr.">Description</label><br>
+								<textarea rows="3" name="4.Descr." id="message" placeholder="Problem Description" required=""></textarea>
+								<input type="hidden" name="_subject" id="email-subject" value="Survey Responses">
+							</div>
+						</div><br><br><br>
+
+						<div class="form_input">
+							<label for="timely">5. </label><br>
+							<select name="5." id="resourceful" required="">
+							<option value="Choose" selected="" disabled="">Choose</option>
+							<option value="Yes">Yes</option>
+							<option value="No">No</option>
+							<option value="Not sure">Not sure</option>
+							</select>
+							<div class="form_input" style= "padding-left: 15px;"><br>
+								<label for="Probl.Descr.">Description</label><br>
+								<textarea rows="3" name="5." id="message" placeholder="Problem Description" required=""></textarea>
+								<input type="hidden" name="_subject" id="email-subject" value="Survey Responses">
+							</div>
+						</div><br><br><br>
+
+
+						<div class="form_input" >
+							<label for="Smart App Control?">6. <br></label>
+								
+							<select name="6." id="Smart App Control?" required="">
+							<option value="Choose" selected="" disabled="">Choose</option>
+							<option value="Writing Down Data">Writing on a log notebook</option>
+							<option value="Saving Data">Computer</option>
+							<option value="Saving Data">Smartphone</option></p>
+							<option value="Not sure">Not sure</option>
+						
+							</select>
+						</div><br><br><br>
+
+						<div class="form_input">
+							<label for="Smartphone">7. <br>
+							<select name="7." id="Smart App Control?" required="">
+							<option value="Choose" selected="" disabled="">Choose</option>
+							<option value="Yes">Yes</option>
+							<option value="Prefer other methods">Maybe, </option></p>
+							<option value="No">No</option>
+						</label>
+							</select>
+						</div><br><br><br>
+
+						<div class="form_input">
+							<label for="Share data in real time">8. </label><br>
+							<select name="8." id="Share data" required="">
+							<option value="Choose" selected="" disabled="">Choose</option>
+							<option value="Yes">Yes</option>
+							<option value="No">No</option>
+							<option value="In some cases">In some cases</option>
+							</select>
+						</div><br><br><br>
+
+						<div class="form_input">
+							<label for="timely">9. </label><br>
+							<select name="9." id="multipurpose" required="">
+							<option value="Choose" selected="" disabled="">Choose</option>
+							<option value="Yes">Yes</option>
+							<option value="No">No</option>
+							<option value="No, many">Better to have...</option>
+							<option value="Not sure">Not sure</option>
+							</select>
+						</div><br><br><br>
+						
+
+						
+				
+						</fieldset>
+						<div class="form_input" style= "padding-left: 15px;"><br>
+							<label for="message">Additional Comments and Suggestions:</label><br><br>
+							<textarea rows="4" name="Additional comments" id="message" placeholder="Your suggestions." required=""></textarea>
+							<input type="hidden" name="_subject" id="email-subject" value="Survey Responses">
+						</div><br>
+						<div style="text-align: center;">
+							<input style="background-color: rgb(74, 123, 180); /* Green */
+							border: none;
+							color: white;
+							padding: 15px 32px;
+							text-align: center;
+							text-decoration: none;
+							display: inline-block;
+							font-size: 16px;" type="submit" value="Send Responses"><br>
+							<p> Thank you for your collaboration.</p>
+						</div> <br>
+					</fieldset><br>
+						<!--Work on the idea of CUSTOMER SEGMENT  ----- PROBLEM ----- SOLUTION kind of survey. start with my customers 
+						who are them, then go to ask about their problems, then finally present my solution and ask about it. -->
+				</form>
+			</div>
+			
+		</div>
+
+			<div class="footer">
+				<a href="#"></a>
+				<p></p>
+			</div>
+		</div>	
+	</body>
+</html>
